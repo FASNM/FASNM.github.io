@@ -1,0 +1,163 @@
+.whatWeOffer {
+  margin-top: 13px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.whatWeOffer h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+  color: #313233;
+}
+
+.whatWeOfferItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.whatWeOfferIllustration {
+  width: 296px;
+  height: 257px;
+  box-sizing: border-box;
+}
+
+.whatWeOfferIllustration img {
+  width: 100%;
+  height: 100%;
+}
+
+.whatWeOfferItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reduceYourOverhead {
+  margin-top: 49px;
+}
+
+.increaseCapacity {
+  margin-top: 24px;
+}
+
+.whatWeOfferTextWrapper {
+  margin-top: 24px;
+  width: 256px;
+}
+
+.whatWeOfferTextWrapper h5 {
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.33;
+  color: #76777a;
+}
+
+.whatWeOfferTextWrapper h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #05464a;
+}
+
+.whatWeOfferTextWrapper p {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #313233;
+}
+
+@media screen and (min-width: 640px) {
+  .whatWeOfferItems {
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .whatWeOfferItem {
+    box-sizing: border-box;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .whatWeOfferIllustration {
+    width: 197px;
+    height: 171px;
+  }
+  .whatWeOfferTextWrapper {
+    width: 192px;
+    display: flex;
+    flex-direction: column;
+  }
+  .whatWeOfferTextWrapper h3 {
+    order: 1;
+  }
+  .whatWeOfferTextWrapper h5 {
+    order: 2;
+  }
+  .whatWeOfferTextWrapper p {
+    order: 3;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .whatWeOfferItem {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .whatWeOfferTextWrapper {
+    width: 256px;
+  }
+  .whatWeOfferTextWrapper h3 {
+    order: 2;
+  }
+  .whatWeOfferTextWrapper h5 {
+    order: 1;
+  }
+  .whatWeOfferTextWrapper p {
+    order: 3;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .whatWeOffer {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .whatWeOfferSection {
+    background: #f7f8fa;
+    display: flex;
+    justify-content: center;
+  }
+  .whatWeOffer {
+    margin-top: 0;
+    box-sizing: border-box;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 68px;
+    background: #ffffff;
+  }
+  .whatWeOfferItems {
+    margin-top: 20px;
+  }
+  .whatWeOfferItem {
+    width: 360px;
+  }
+  .whatWeOfferTextWrapper {
+    width: 296px;
+  }
+
+  .reduceYourOverhead,
+  .increaseCapacity {
+    margin-top: 0;
+  }
+}

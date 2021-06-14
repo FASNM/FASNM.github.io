@@ -1,0 +1,245 @@
+.generalInformation {
+  background-color: #f0f1f2;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.generalInformationContent {
+  margin-right: 16px;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.generalInformationTitleWrapper {
+  width: 288px;
+}
+
+.generalInformationTitleWrapper h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+  color: #05464a;
+}
+
+.faqWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.faq {
+  width: 288px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.questionWrapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.faqQuestionHeaderWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.question {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #4e5052;
+}
+
+.closeIcon,
+.plusIcon {
+  color: #699092;
+  background: transparent;
+  cursor: pointer;
+}
+
+.closeIcon svg,
+.plusIcon svg {
+  font-weight: bold;
+}
+
+.closeIcon {
+  display: none;
+}
+
+.active.closeIcon {
+  display: inline-block;
+}
+
+.active.plusIcon {
+  display: none;
+}
+
+.answerWrapper {
+  display: none;
+}
+
+.answerWrapper p,
+.answerWrapper ol,
+.answerWrapper ul {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #313233;
+}
+
+.answerWrapper ol,
+.answerWrapper ul {
+  margin-left: 20px;
+}
+
+.doYouStillHaveQuestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 288px;
+}
+
+.doYouStillHaveQuestionTextWrapper {
+  margin-top: 24px;
+}
+
+.doYouStillHaveQuestion > .actionWrapper {
+  align-self: center;
+  justify-content: center;
+}
+
+.doYouStillHaveQuestion h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.33;
+  text-align: center;
+  color: #05464a;
+  margin-bottom: 8px;
+}
+
+.doYouStillHaveQuestion p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #141414;
+  margin-bottom: 42px;
+}
+
+.contactUsBtn {
+  margin-left: 8px;
+}
+
+.faqQuestionHeaderWrapper,
+.answerWrapper {
+  padding: 8px 16px;
+  background-color: #f7f8fa;
+}
+
+.faqQuestionHeaderWrapper {
+  border-radius: 8px;
+}
+
+.answerWrapper {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.removeQuestionWrapperBorder {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.faqQuestionHeaderWrapper:focus {
+  background: none;
+  outline: none;
+}
+
+.faqQuestionHeaderWrapper:hover {
+  box-shadow: 0 1px 16px 0 rgba(49, 50, 51, 0.1);
+  border-color: #8ac6c1;
+}
+
+.removeQuestionWrapperBorder:hover {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+@media screen and (min-width: 640px) {
+  .generalInformationTitleWrapper {
+    width: 600px;
+  }
+  .faq {
+    width: 600px;
+  }
+  .faqQuestionHeaderWrapper,
+  .answerWrappe {
+    padding: 21px 16px;
+  }
+  .doYouStillHaveQuestion {
+    width: 600px;
+  }
+  .doYouStillHaveQuestion > .actionWrapper {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .faq {
+    width: 624px;
+  }
+  .generalInformationTitleWrapper {
+    width: 688px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .generalInformationTitleWrapper {
+    width: 820px;
+  }
+  .readDocs {
+    margin-right: 16px;
+  }
+  .faqQuestionHeaderWrapper {
+    border-radius: 22px;
+    border: 2px solid transparent;
+  }
+  .removeQuestionWrapperBorder {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .answerWrapper {
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .answerWrapper {
+    padding: 0 48px 24px;
+  }
+  .doYouStillHaveQuestionTextWrapper {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .generalInformationTitleWrapper {
+    width: 920px;
+  }
+  .faq {
+    width: 992px;
+  }
+  .faqQuestionHeaderWrapper {
+    padding: 24px 48px;
+  }
+  .doYouStillHaveQuestion {
+    width: 688px;
+  }
+}

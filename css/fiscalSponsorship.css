@@ -1,0 +1,265 @@
+.fiscalSponsorshipSection {
+  margin-left: 16px;
+  margin-top: 57px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.fiscalSponsorshipSectionContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.fiscalSponsorshipTitlesContainer {
+  /* width: 304px; */
+}
+
+.fiscalSponsorshipSectionContent h3 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.14;
+  color: #cddadb;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.fiscalSponsorshipSectionContent .title h1 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #e6eded;
+}
+
+.fiscalSponsorshipSectionContent .title h1.madeEasy {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 0.83;
+  color: #88c6c1;
+  margin-top: 8px;
+}
+
+.actionWrapper {
+  margin-top: 40px;
+  margin-bottom: 32px;
+  display: flex;
+}
+
+.actionWrapper a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  text-align: center;
+  color: #ffffff;
+  padding: 16px 24px;
+  border-radius: 24px;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.applyToStart,
+a.applyToStart {
+  background: linear-gradient(to bottom, #313233, #141414);
+  margin-right: 8px;
+  width: 144px;
+  white-space: nowrap;
+}
+
+.applyToStart:hover {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(rgb(78, 80, 82) 0%, rgb(49, 50, 51) 100%)
+    rgb(78, 80, 82);
+  border-color: rgb(78, 80, 82);
+}
+
+.applyToStart:focus {
+  box-shadow: rgb(144, 240, 189) 0px 0px 0px 2px;
+}
+
+.applyToStart:active {
+  background: rgb(20, 20, 20);
+  border-color: rgb(20, 20, 20);
+}
+
+a.learnMore {
+  background: rgba(255, 255, 255, 0.2);
+  margin-left: 8px;
+  max-width: 128px;
+  white-space: nowrap;
+}
+
+.learnMore:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.learnMore:focus {
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.learnMore:active {
+  border: solid 2px #90f0bd;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.sponsorShipIllustrationWrapper {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  width: 100%;
+  height: 277px;
+  align-self: flex-end;
+}
+
+.sponsorShipIllustrationWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.desktopApply,
+.actionWrapper .desktopApply {
+  display: none;
+}
+
+.mobileApply,
+.actionWrapper .mobileApply {
+  display: flex;
+}
+
+@media screen and (min-width: 640px) {
+  .fiscalSponsorshipSectionContent {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  .sponsorShipIllustrationWrapper {
+    width: 57%;
+    height: 473px;
+  }
+  .fiscalSponsorshipTitleAndActionWrapper {
+    position: relative;
+    z-index: 1;
+    top: 40px;
+  }
+  .sponsorShipIllustrationWrapper > .bigger {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .fiscalSponsorshipSection {
+    margin-left: 42px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .fiscalSponsorshipSection {
+    margin-left: 0;
+  }
+  .fiscalSponsorshipSectionContent {
+    justify-content: flex-end;
+    align-items: baseline;
+  }
+  .fiscalSponsorshipTitleAndActionWrapper {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .actionWrapper .mobileApply {
+    display: none;
+  }
+  .actionWrapper .desktopApply {
+    display: flex;
+  }
+  button.desktopApply,
+  a.desktopApply {
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sponsorShipIllustrationWrapper {
+    width: 53%;
+    height: 500px;
+    position: relative;
+    top: -140px;
+    z-index: 1;
+  }
+  .fiscalSponsorshipTitlesContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .fiscalSponsorshipSectionContent h3 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #cddadb;
+    margin-bottom: 0;
+  }
+  .fiscalSponsorshipSectionContent .title {
+    display: flex;
+    flex-direction: column;
+  }
+  .fiscalSponsorshipSectionContent .title h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.67;
+    color: #e6eded;
+  }
+
+  .fiscalSponsorshipSectionContent .title h1.madeEasy {
+    font-size: 64px;
+    font-weight: bold;
+    color: #88c6c1;
+  }
+  .sponsorShipIllustrationWrapper > .biggest {
+    display: block;
+  }
+  .actionWrapper {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .sponsorShipIllustrationWrapper {
+    width: 53%;
+    height: 593px;
+    top: -120px;
+  }
+  .sponsorShipIllustrationWrapper img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .fiscalSponsorshipTitleAndActionWrapper {
+    margin-top: 30px;
+  }
+  .actionWrapper {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .sponsorShipIllustrationWrapper {
+    top: -95px;
+  }
+  .sponsorShipIllustrationWrapper > .bigger {
+    display: none;
+  }
+
+  .sponsorShipIllustrationWrapper > .biggest {
+    display: block;
+  }
+  .fiscalSponsorshipTitleAndActionWrapper {
+    margin-top: 90px;
+  }
+}

@@ -28,7 +28,7 @@ export default {
   ],
 
   env: {
-    SERVER_URL: process.env.SERVER_URL || "http://localhost:5300"
+    SERVER_URL: process.env.SERVER_URL || "https://gaboni-streaming-server.herokuapp.com/"
   },
 
   // Plugins to run before rendering page

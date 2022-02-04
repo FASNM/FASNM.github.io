@@ -11,47 +11,20 @@
       <div class="content-l">
         <p class="name">
           <span class="truncate">{{ info.nickName || "--" }}</span>
-          <span
-            class="mic-off mdi mdi-microphone-off"
-            v-if="info.micOff"
-          ></span>
+           
         </p>
-        <audio-bar />
+       
       </div>
-      <div class="content-r">
-        <span class="mdi mdi-volume-off" v-if="info.volume <= 0"></span>
-        <span class="mdi mdi-volume-low" v-else-if="info.volume <= 0.33"></span>
-        <span
-          class="mdi mdi-volume-medium"
-          v-else-if="info.volume <= 0.66"
-        ></span>
-        <span class="mdi mdi-volume-high" v-else></span>
-        <!-- <div class="volume-popup">
-          <input class="volume-slider" orient="vertical" type="range" />
-        </div> -->
-        <span
-          class="mdi mdi-dots-vertical options-icon"
-          @click="optionsFunction"
-          v-if="isHost"
-        >
-          <div class="options-popup" v-if="showOptions">
-            <ul>
-              <li>Kick out</li>
-              <li>Mute</li>
-              <li>Ping</li>
-            </ul>
-          </div>
-        </span>
-      </div>
+       
     </div>
   </div>
 </template>
 
 <script>
-import AudioBar from "./AudioBar.vue";
+ 
 
 export default {
-  components: { AudioBar },
+   
   props: ["info", "isHost"],
   data() {
     return {
@@ -70,17 +43,10 @@ export default {
       let index = Math.floor(Math.random() * colorSet.length);
       this.$refs.image.style.backgroundImage = `url('https://source.boringavatars.com/marble/70/${this.info.id}?square&colors=${colorSet[index][0]},${colorSet[index][1]},${colorSet[index][2]},${colorSet[index][3]},${colorSet[index][4]}')`;
     },
-    optionsFunction() {
-      this.showOptions = !this.showOptions;
-    }
-  },
-  mounted() {
-    // this.bg();
-    // window.addEventListener("click", function() {
-    //   if (this.showOptions) this.showOptions = false;
-    // });
+    
+  
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

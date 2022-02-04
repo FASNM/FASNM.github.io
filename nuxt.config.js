@@ -28,7 +28,7 @@ export default {
   ],
 
   env: {
-    SERVER_URL: process.env.SERVER_URL || "https://gaboni-streaming-server.herokuapp.com/"
+    SERVER_URL: process.env.SERVER_URL || "https://gaboni-streaming-server.herokuapp.com"
   },
 
   // Plugins to run before rendering page
@@ -36,7 +36,8 @@ export default {
     { src: "~/plugins/vue-plyr", mode: "client" },
     { src: "~/plugins/srt-webvtt", mode: "client" },
     { src: "~/plugins/socket-io", mode: "client" },
-    { src: "~/plugins/ping", mode: "client" }
+    { src: "~/plugins/ping", mode: "client" },
+    
   ],
 
   components: true,

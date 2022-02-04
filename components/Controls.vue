@@ -23,9 +23,7 @@
           </button>
         </div>
       </div>
-      <!-- <p class="room-code">
-        <span class="code-text">ID</span> {{ room.id || "--" }}
-      </p> -->
+      
     </div>
 
     <div class="participants">
@@ -47,24 +45,12 @@
     <div class="controls">
       <h3>CONTROLS</h3>
       <div class="controls-wrapper">
-        <audio-bar />
+        
         <div class="controls-b">
           <button @click="$emit('leave-room')">
             {{ isHost ? "End room" : "Leave" }}
           </button>
-          <div class="controls-br">
-            <!-- <span
-              class="mdi mdi-microphone-off"
-              v-if="room.voiceChat.micOff"
-            ></span> -->
-            <span class="mdi mdi-microphone"></span>
-            <!-- <span
-              class="mdi mdi-headphones-off"
-              v-if="room.voiceChat.soundOff"
-            ></span> -->
-            <span class="mdi mdi-headphones"></span>
-            <span class="mdi mdi-cog"></span>
-          </div>
+           
         </div>
       </div>
     </div>

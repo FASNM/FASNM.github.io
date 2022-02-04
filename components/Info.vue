@@ -22,11 +22,7 @@
             <p>Links</p>
           </div>
         </div>
-        <div class="contribute">
-          <button @click="contribute">
-            <span class="mdi mdi-github"></span>Contribute
-          </button>
-        </div>
+       
       </div>
       <div class="steps">
         <h3>Steps</h3>
@@ -42,15 +38,7 @@
   </div>
 </template>
 
-<script>
-export default {
-  methods: {
-    contribute() {
-      window.open("https://github.com/emanuelchristo/movie-night", "_blank");
-    }
-  }
-};
-</script>
+
 
 <style lang="scss">
 .card {
@@ -86,17 +74,6 @@ export default {
   margin-bottom: 3rem;
 }
 
-.contribute {
-  margin-top: 3rem;
-  button {
-    width: 150px;
-    height: 50px;
-    font-weight: 400;
-    font-size: 1rem;
-    background: rgb(42, 41, 63);
-    color: #fff;
-  }
-}
 
 .support {
   margin-right: 3rem;

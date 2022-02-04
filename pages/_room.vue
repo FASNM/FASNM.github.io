@@ -27,10 +27,8 @@
       <join-room v-else />
 
       <footer>
-        Made with ❤️ by
-        <a href="https://www.instagram.com/emanuel.christo/" target="_blank"
-          >Cris</a
-        >
+         In 🎥 We Trust 
+        
       </footer>
 
       <invite

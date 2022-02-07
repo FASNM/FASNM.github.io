@@ -4,4 +4,4 @@ setInterval(() => {
     console.log("ping failed");
     console.error(err);
   });
-}, 3000);
+}, 30000);

@@ -1,14 +1,14 @@
 <template>
   <div class="page-container">
-    <div class="background">
+    <!-- <div class="background">
       <div class="background-image"></div>
       <div class="background-blur"></div>
       <div class="background-grid"></div>
-    </div>
+    </div> -->
     <div class="top-nav">
       <nuxt-link to="/">
         <h1>
-          <span class="mdi mdi-jellyfish"></span>
+          <!-- <span class="mdi mdi-jellyfish"></span> -->
           <span style="font-weight: 300">Movie</span>Night
         </h1>
       </nuxt-link>
@@ -64,7 +64,7 @@ export default {
   padding: 2.5rem 1rem 3rem 1rem;
   margin: 0 auto;
   border-radius: 1.5rem;
-  background-color: rgba(2, 1, 5, 0.2);
+  background-color: rgba(22, 17, 17, 0.2);
   border: 2px solid rgba(#fff, 0.1);
   backdrop-filter: blur(40px);
   box-shadow: 0 3rem 4rem rgba(#000, 0.4);

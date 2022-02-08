@@ -7,7 +7,7 @@
         <span class="mdi mdi-party-popper icon"></span>
         <h2><span style="font-weight: 300"></span>Invite</h2>
         <div class="inputs-wrapper flex-center-col">
-          <!-- <div class="input-wrapper">
+          <div class="input-wrapper">
             <label>Room link</label>
             <input
               id="room-link"
@@ -16,7 +16,7 @@
               v-model="info.roomLink"
               readonly
             />
-          </div> -->
+          </div>
 
           <div class="input-wrapper">
             <label>Room code</label>

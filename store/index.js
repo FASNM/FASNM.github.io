@@ -187,6 +187,13 @@ export const actions = {
           video.thumbnail = "/video_icon.png";
           video.title = "Video from link";
         }
+        else if (data.type == "video") {
+          video.type = "video";
+          video.link = data.link;
+          video.thumbnail = "/video_icon.png";
+          video.title = "Video from link";
+        }
+
 
         // Making request to server
         if (state.isHost) {

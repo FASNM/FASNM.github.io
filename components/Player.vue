@@ -161,6 +161,13 @@ export default {
       p.on("ended", () => this.syncLocal("ended"));
     }
 
+
+   if (Hls.isSupported()) {
+            const hls = new Hls();
+            hls.loadSource(this.$refs.player.player);
+            window.hls = hls;
+        }
+
     this.$socket.on("room:syncrequest", () => {
       this.syncLocal("syncrequest");
     });

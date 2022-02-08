@@ -37,6 +37,7 @@ export default {
     { src: "~/plugins/srt-webvtt", mode: "client" },
     { src: "~/plugins/socket-io", mode: "client" },
     { src: "~/plugins/ping", mode: "client" },
+    {src: '~/plugins/vue-videojs7.js', mode: 'client'},
     
   ],
 

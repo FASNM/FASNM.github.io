@@ -28,7 +28,7 @@
             />
           </div>
 
-          <button style="margin-top: 1rem" @click="$copyText(info.roomId)">
+          <button style="margin-top: 1rem" @click="$copyText(info.roomLink)">
             <span class="mdi mdi-link"></span>Copy Code
           </button>
         </div>

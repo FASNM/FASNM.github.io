@@ -3,7 +3,7 @@
     <div class="player-bg">
       <div class="player-wrapper" ref="playerWrapper">
         <vue-plyr :options="playerOptions" ref="player">
-          <video controls crossorigin playsinline></video>
+          <video controls playsinline></video>
         </vue-plyr>
       </div>
     </div>

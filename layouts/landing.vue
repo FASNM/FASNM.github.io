@@ -20,7 +20,7 @@
     </div>
 
     <footer>
-       In 🍿 We Trust 
+       In 📽️ We Trust 
       
       
     </footer>

@@ -1,7 +1,7 @@
 export default {
   // Global page headers
   head: {
-    title: "Watch With 🍿",
+    title: "WatchWith🍿 -  Watch together with friends!",
     htmlAttrs: {
       lang: "en"
     },

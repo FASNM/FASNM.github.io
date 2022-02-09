@@ -101,6 +101,8 @@ export default {
         source.sources[0].provider = "youtube";
       player.source = source;
     },
+
+    
     syncLocal(event) {
       // if (!this.isHost) return;
       const p = this.$refs.player.player;
@@ -165,8 +167,16 @@ export default {
       this.syncLocal("syncrequest");
     });
   }
+
+
+
+  
 };
 </script>
+
+
+
+
 
 <style lang="scss" scoped>
 .controls-bar {

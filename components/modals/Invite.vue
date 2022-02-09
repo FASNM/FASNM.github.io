@@ -29,7 +29,7 @@
           </div>
 
           <button style="margin-top: 1rem" @click="$copyText(info.roomLink)">
-            <span class="mdi mdi-link"></span>Copy Code
+            <span class="mdi mdi-link"></span>Copy Code  
           </button>
         </div>
       </div>
@@ -38,7 +38,7 @@
 </template>
 
 <script>
-export default { props: ["show", "info"] };
+export default { props: ["show", "info", "room"] };
 </script>
 
 <style lang="scss" scoped>

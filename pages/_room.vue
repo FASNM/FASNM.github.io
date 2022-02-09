@@ -1,16 +1,16 @@
 <template>
   <div class="page-container">
-    <div class="background">
+    <!-- <div class="background">
       <div class="background-image"></div>
       <div class="background-blur"></div>
       <div class="background-grid"></div>
-    </div>
+    </div> -->
 
     <div class="player-container">
       <div class="top-nav">
         <nuxt-link to="/">
           <h1>
-            <span class="mdi mdi-jellyfish"></span>
+            <!-- <span class="mdi mdi-jellyfish"></span> -->
             <span style="font-weight: 300">Movie</span>Night
           </h1>
         </nuxt-link>

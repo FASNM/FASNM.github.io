@@ -4,9 +4,9 @@
     <h2><span style="font-weight: 300">Join</span>Room</h2>
     <form @submit.prevent="joinRoomLocal">
       <div class="inputs-wrapper" style="margin: 3rem 0">
-        <div class="new-user-image" ref="newUserImage">
+        <!-- <div class="new-user-image" ref="newUserImage">
           <span class="mdi mdi-jellyfish"></span>
-        </div>
+        </div> -->
         <div class="input-wrapper">
           <label>Room code*</label>
           <input

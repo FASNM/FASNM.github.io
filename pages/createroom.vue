@@ -28,9 +28,9 @@
     <!-- <div v-else> -->
     <form @submit="loginLocal">
       <div class="inputs-wrapper" style="margin: 3rem 0">
-        <div class="new-user-image" ref="newUserImage">
+        <!-- <div class="new-user-image" ref="newUserImage">
           <span class="mdi mdi-jellyfish"></span>
-        </div>
+        </div> -->
         <div class="input-wrapper">
           <label>Nickname*</label>
           <input

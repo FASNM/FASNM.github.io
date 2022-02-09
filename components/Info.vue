@@ -27,7 +27,7 @@
       <div class="steps">
         <h3>Steps</h3>
         <ul>
-          <li><span class="num">1</span>Start a room</li>
+          <li><span class="num">1</span>Create a room</li>
           <li><span class="num">2</span> Add name & thumbnail</li>
           <li><span class="num">3</span>Add video</li>
           <li><span class="num">4</span>Invite friends</li>
@@ -59,7 +59,7 @@
 }
 
 .popcorn {
-  font-size: 6rem;
+  font-size: 3rem;
   position: absolute;
   top: -80px;
   right: 40px;
@@ -88,11 +88,11 @@
   width: fit-content;
   margin-right: 1.5rem;
   .icon {
-    width: 58px;
-    height: 58px;
+    width: 48px;
+    height: 48px;
     margin-bottom: 0.75rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
+    background-color: rgb(99, 98, 98);
+    border-radius: 10%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

@@ -11,7 +11,7 @@
         <nuxt-link to="/">
           <h1>
             <!-- <span class="mdi mdi-jellyfish"></span> -->
-            <span style="font-weight: 300">Movie</span>Night
+            <span style="font-weight: 300">WatchWith</span>🍿xyz
           </h1>
         </nuxt-link>
         <avatar />
@@ -27,7 +27,7 @@
       <join-room v-else />
 
       <footer>
-         In 🎥 We Trust 
+         In 📽️ We Trust 
         
       </footer>
 

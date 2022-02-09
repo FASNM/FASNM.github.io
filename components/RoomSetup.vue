@@ -8,7 +8,7 @@
         v-if="!(room.video.added && room.video.link)"
       >
         <h3>Add video</h3>
-        <div class="file-input">
+        <!-- <div class="file-input">
           <input
             type="file"
             id="file"
@@ -20,7 +20,7 @@
           <label for="file" class="button button-outline"
             ><span class="mdi mdi-plus-circle"></span>Add File</label
           >
-        </div>
+        </div> -->
         <button class="button-outline" @click="addYoutubeLink">
           <span class="mdi mdi-youtube"></span>YouTube Link
         </button>
